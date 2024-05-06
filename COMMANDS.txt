@@ -1,0 +1,5 @@
+# Generate results.json:
+./try_all.py
+
+# Make a pretty graph nondet_graph.dot from results.json and render it:
+./draw_nondet_graph.py && circo nondet_graph.dot -Tpng -o nondet_graph.png
